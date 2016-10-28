@@ -1,11 +1,16 @@
 <header class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
-            <li class="menu-text">Blog</li>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
+	        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+			{% for p in navigation_pages %}
+				{% if p.navigation_weight %}
+					<li>
+						<a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+							{{ p.title }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
         </ul>
     </div>
 </header>
