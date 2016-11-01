@@ -1,14 +1,16 @@
 header.top-bar {
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 1;
-	background-color: #FFF;
-// 	-webkit-box-shadow: 0px 4px 5px 0px rgba(153,153,153,1);
-// 	-moz-box-shadow: 0px 4px 5px 0px rgba(153,153,153,1);
-// 	box-shadow: 0px 4px 5px 0px rgba(153,153,153,1);
+	background-color: rgba(0, 0, 0, 0.6);
 	ul {
 		background-color: transparent;
 	}
-	a.active {
+	a {
 		font-weight: bold;
+		color: #CCC;
+		&.active, &:hover, &:focus {
+			color: #FFF;
+		}
 	}
 }
