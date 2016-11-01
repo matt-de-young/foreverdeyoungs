@@ -1,0 +1,25 @@
+.home.canvas {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left:0;
+	top: 0;
+	background-image: url(/img/hero-swing.jpeg);
+    background-size: cover;
+    background-position: center;
+    .banner {
+        position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width:100%;
+	    color: #FFF;
+	    h1 {
+			&.cursive {
+				font-family: 'League Script', cursive;
+			}
+			&.bold {
+				font-weight: bold;
+			}
+		}
+    }
+}
