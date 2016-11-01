@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Registry
-navigation_weight: 2
+navigation_weight: 4
 ---
 
 This is our registry on Amazon
