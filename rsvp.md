@@ -4,6 +4,20 @@ title: RSVP
 navigation_weight: 1
 ---
 
-Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
+You can RSVP using the form below. Feel free to get in touch if you have any questions.
 
-No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+<form method="POST" action="http://formspree.io/MGeiger410@me.com">
+	<input type="text" name="name" placeholder="Your name" required>
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<label><input type="checkbox" name="germany_bool" value="True"> I am coming to Germany</label><br />
+	<input type="num" name="germany_num" placeholder="Size of party">
+	<label><input type="checkbox" name="baltimore_bool" value="True"> I am coming to Baltimore</label>
+	<input type="num" name="baltimore_num" placeholder="Size of party">
+	<textarea name="message" placeholder="Other comments"></textarea>
+
+	<input type="hidden" name="_next" value="/thanks.html" />
+	<input type="hidden" name="_subject" value="Forever de Youngs RSVP" />	
+	<input type="text" name="_gotcha" style="display:none" />
+	
+	<button type="submit">RSVP</button>
+</form>
