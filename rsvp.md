@@ -4,7 +4,9 @@ title: RSVP
 navigation_weight: 1
 ---
 
-You can RSVP using the form below. Feel free to get in touch if you have any questions.
+If you could please let us know how many and where you would like to attend by January 2018, we would appreciate that.
+
+If you are attending both events, check both boxes. We can't wait to celebrate with all of you.
 
 <form method="POST" action="http://formspree.io/MGeiger410@me.com">
 	<div class="row">
@@ -23,7 +25,7 @@ You can RSVP using the form below. Feel free to get in touch if you have any que
 			<label><input type="checkbox" name="germany_bool" value="True"> I am coming to Germany</label>
 		</div>
 		<div class="medium-6 columns">
-			<input type="number" name="germany_num" placeholder="Size of party">
+			<input type="number" name="germany_num" placeholder="How many">
 		</div>
 	</div>
 	
@@ -32,7 +34,7 @@ You can RSVP using the form below. Feel free to get in touch if you have any que
 			<label><input type="checkbox" name="baltimore_bool" value="True"> I am coming to Baltimore</label>
 		</div>
 		<div class="medium-6 columns">
-			<input type="number" name="baltimore_num" placeholder="Size of party">
+			<input type="number" name="baltimore_num" placeholder="How many">
 		</div>
 	</div>
 	
