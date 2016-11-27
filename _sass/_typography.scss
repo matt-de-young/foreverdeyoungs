@@ -3,6 +3,31 @@
 body {
 	font-family: 'Lato', sans-serif;
 }
-a {
-	transition: color 0.25s, background-color 0.25s;
+.page {
+	color: $text-color;
+	h1, h2, h3, h4, h5, h6, strong, b {
+		color: $iris;
+	}
+	a {
+		transition: color 0.25s, background-color 0.25s;
+		color: $iris;
+		&:hover, &:focus {
+			color: lighten($iris, 25%);
+		}
+	}
+	ul {
+		li {
+			list-style: none;
+		}
+		li:before {
+			content: '\2022';
+			display: block;
+			position: relative;
+			max-width: 0;
+			max-height: 0;
+		    left: -1rem;
+			top: 0;
+			color: $iris;
+		}
+	}
 }
