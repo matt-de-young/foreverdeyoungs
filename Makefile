@@ -1,6 +1,6 @@
 # Builds the static site
 build:
-	jekyll build
+	bundle jekyll build
 
 # Starts webserver that builds on save
 devserver:

@@ -24,6 +24,7 @@ url: "http://foreverdeyoungs.wedding" # the base hostname & protocol for your si
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-gallery-generator
 exclude:
   - Gemfile
   - Gemfile.lock
