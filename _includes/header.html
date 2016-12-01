@@ -10,5 +10,10 @@
 				</li>
 			{% endif %}
 		{% endfor %}
+		<li>
+			<a href="/photos/" {% if page.url == '/photos/' %}class="active"{% endif %}>
+				Gallery
+			</a>
+		</li>
     </ul>
 </header>
