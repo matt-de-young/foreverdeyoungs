@@ -16,4 +16,15 @@ header.top-bar {
 			color: $iris;
 		}
 	}
+	.menu {
+		display: inline-block;
+		&.lang {
+			float: right;
+/*
+			.en:lang(en), .de:lang(de) {
+			    color: $iris;
+			}
+*/
+		}
+	}
 }

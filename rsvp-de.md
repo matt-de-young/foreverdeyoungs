@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RSVP
-lang: en
+lang: de
 ref: rsvp
 navigation_weight: 1
 ---

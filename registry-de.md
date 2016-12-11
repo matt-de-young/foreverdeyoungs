@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Registry
-lang: en
+title: die Registratur
+lang: de
 ref: registry
 navigation_weight: 4
 ---

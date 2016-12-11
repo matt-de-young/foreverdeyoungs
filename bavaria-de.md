@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bavaria
-lang: en
+title: Bayern
+lang: de
 ref: bavaria
 navigation_weight: 2
 ---

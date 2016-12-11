@@ -1,19 +1,22 @@
 <header class="top-bar">
     <ul class="menu">
-        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-		{% for p in navigation_pages %}
-			{% if p.navigation_weight %}
+        {% assign navigation_pages = site.html_pages | where:"lang", page.lang | sort: 'navigation_weight' %}
+		{% for post in navigation_pages %}
+			{% if post.navigation_weight %}
 				<li>
-					<a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-						{{ p.title }}
+					<a href="{{ post.url }}" {% if post.url == page.url %}class="active"{% endif %}>
+						{{ post.title }}
 					</a>
 				</li>
 			{% endif %}
 		{% endfor %}
-		<li>
-			<a href="/photos/" {% if page.url == '/photos/' %}class="active"{% endif %}>
-				Gallery
-			</a>
-		</li>
     </ul>
+    <ul class="lang menu">
+		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		{% for post in pages reversed %}
+			<li>
+				<a href="{{ post.url }}" {% if post.lang == page.lang %}class="active"{% endif %}>{{ post.lang }}</a>
+			</li>
+		{% endfor %}
+	</ul>
 </header>

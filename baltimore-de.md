@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Baltimore
-lang: en
+lang: de
 ref: baltimore
 navigation_weight: 3
 ---
