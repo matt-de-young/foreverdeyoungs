@@ -24,7 +24,7 @@ If you are attending both events, check both boxes. We can't wait to celebrate w
 	
 	<div class="row">
 		<div class="medium-6 columns">
-			<label><input type="checkbox" name="germany_bool" value="True"> I am coming to Germany</label>
+			<label><input type="checkbox" name="germany_bool" value="True"> I/we are coming to Eggenthal/Germany</label>
 		</div>
 		<div class="medium-6 columns">
 			<input type="number" name="germany_num" placeholder="How many">
@@ -33,7 +33,7 @@ If you are attending both events, check both boxes. We can't wait to celebrate w
 	
 	<div class="row">
 		<div class="medium-6 columns">
-			<label><input type="checkbox" name="baltimore_bool" value="True"> I am coming to Baltimore</label>
+			<label><input type="checkbox" name="baltimore_bool" value="True"> I/we are coming to Baltimore/America</label>
 		</div>
 		<div class="medium-6 columns">
 			<input type="number" name="baltimore_num" placeholder="How many">
