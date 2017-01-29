@@ -6,34 +6,35 @@ ref: bavaria
 navigation_weight: 2
 ---
 
-## Ceremony ##
-**Where:** Seelenkapelle, Eggenthal
+![seelenkappelle in Eggenthal](/photos/seelenkappelle.jpg "Seelenkappelle"){: .inline-img .float-right .small-6 }
 
-**When:** July, 7th 2018, 14:30
+### Zeremonie ###
+**Wo:** Seelenkapelle, Eggenthal
 
-## Reception ##
-**Where:** Parkhotel Residence, Bad Wörrishofen
+**Wann:** 7. Juli 2018, 14:30
 
-**When:** July, 7th 2018, 16:00
+### Empfang ###
+**Wo:** Parkhotel Residence, Bad Wörrishofen
 
-Our church and judge wedding will occur in Laura's home town of Bavaria.
+**Wann:** 7. Juli 2018, 16:00
 
-We will have the judge ceremony in Kaufbeuren and afterwards celebrate in a quaint Greek restaraunt with our closest family and friends.
+Unsere standesamtliche und kirchliche Hochzeit findet in Laura's Heimat in Bayern statt. 
 
-Our church ceremony will be held in Eggenthal with a scenic view of the town and the Alps. After the church ceremony, we will gather in the Parkhotel Residence in Bad Wörrishofen.
+Unsere standesamtliche Hochzeit werden wir im engsten Familienkreis in Kaufbeuren feiern und danach in einem griechischen Restaurant den Tag ausklingen lassen. 
 
-The Parkhotel Residence offers rooms you can book for your stay, just follow this link. There are also other hotels which offer accomidations in the same town.
+Unsere kirchliche Hochzeit findet in Eggenthal in der Seelenkapelle statt. Von dort hat man einen traumhaften Blick auf die Alpen und das Dorf. Danach werden wir im Parkhotel Residence
+in Bad Wörrishofen feiern. 
 
-Here are some suggestions:
-* Gasthof Adler
-* Löwenbräu Bad Wörrishofen
+Das <a href="http://www.parkhotel-residence.de/" target="_blank" rel="noopener">Parkhotel Residence</a>  bietet auch Gästezimmer an die man buchen kann. 
 
-### Getting There: ###
+In der selben Gegend gibt es auch andere Hotel Optionen. 
+* <a href="http://www.adler-trommer.de/" target="_blank" rel="noopener">Gasthof Adler</a>
+* <a href="http://www.loewenbraeu-bad-woerishofen.de/" target="_blank" rel="noopener">Löwenbräu Bad Wörrishofen</a>
 
-Our church and judge wedding will occur in Laura's home town of Bavaria.
+## Getting There: ##
 
-We will have the judge ceremony in Kaufbeuren and afterwards celebrate in a quaint Greek restaraunt with our closest family and friends.
+Bad Wörrishofen has a train station in walking distance to the hotels.
+Bad Wörrishofen hat auch einen Bahnhof von dem aus man zu den naheliegenden Hotels laufen kann. 
 
-Our church ceremony will be held in Eggenthal with a scenic view of the town and the Alps. After the church ceremony, we will gather in the Parkhotel Residence in Bad Wörrishofen.
-
-The Parkhotel Residence offers rooms you can book for your stay, just follow this link. There are also other hotels which offer accomidations in the same town.
+More details to follow.
+Weitere Details folgen. 

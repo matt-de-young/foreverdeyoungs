@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Zuhause
+title: Home
 lang: de
 ref: home
 navigation_weight: 0
