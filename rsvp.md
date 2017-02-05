@@ -10,7 +10,7 @@ If you could please let us know how many and where you would like to attend by J
 
 If you are attending both events, check both boxes. We can't wait to celebrate with all of you.
 
-<form method="POST" action="http://formspree.io/MGeiger410@me.com">
+<form method="POST" action="http://formspree.io/RSVP@ForeverdeYoung.wedding">
 	<div class="row">
 	    <div class="medium-12 columns">
 			<input type="text" name="name" placeholder="Your name" required>
@@ -23,19 +23,19 @@ If you are attending both events, check both boxes. We can't wait to celebrate w
 	</div>
 	
 	<div class="row">
-		<div class="medium-6 columns">
+		<div class="medium-9 columns">
 			<label><input type="checkbox" name="germany_bool" value="True"> I/we are coming to Eggenthal/Germany</label>
 		</div>
-		<div class="medium-6 columns">
+		<div class="medium-3 columns">
 			<input type="number" name="germany_num" placeholder="How many">
 		</div>
 	</div>
 	
 	<div class="row">
-		<div class="medium-6 columns">
+		<div class="medium-9 columns">
 			<label><input type="checkbox" name="baltimore_bool" value="True"> I/we are coming to Baltimore/America</label>
 		</div>
-		<div class="medium-6 columns">
+		<div class="medium-3 columns">
 			<input type="number" name="baltimore_num" placeholder="How many">
 		</div>
 	</div>
@@ -52,7 +52,7 @@ If you are attending both events, check both boxes. We can't wait to celebrate w
 	
 	<div class="row">
 	    <div class="medium-12 columns text-right">
-			<a type="submit" class="button">SEND</a>
+			<button type="submit">SEND</button>
 		</div>
 	</div>
 </form>

@@ -1,15 +1,17 @@
 input[type="text"], input[type="number"], input[type="textarea"] {
 	width: 100%;
 }
-a.button {
+a.button, button {
 	background-color: $iris;
-	color: $yellow;
+	color: #FFF;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
+    padding: 0.5em 1em;
+    line-height: inherit;
 	transition: color 0.25s, background-color 0.25s;
 	&:hover, &:focus {
 		background-color: lighten($iris, 15%);
-		color: $yellow;
+		color: #FFF;
 	}
 }

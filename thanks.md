@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Thanks
+lang: en
+ref: thanks
 ---
 
 Thank you for your RSVP.
