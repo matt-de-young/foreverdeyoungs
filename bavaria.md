@@ -6,7 +6,7 @@ ref: bavaria
 navigation_weight: 2
 ---
 
-![seelenkappelle in Eggenthal](/photos/seelenkappelle.jpg "Seelenkappelle"){: .inline-img .float-right .small-6 }
+![seelenkappelle in Eggenthal](/img/seelenkappelle.jpg "Seelenkappelle"){: .inline-img .float-right .small-6 }
 
 ### Ceremony ###
 **Where:** Seelenkapelle, Eggenthal
