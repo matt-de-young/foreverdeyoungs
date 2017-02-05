@@ -1,5 +1,25 @@
 <header class="top-bar">
-    <ul class="menu">
+	<div class="mobile-nav show-for-small-only">
+		<div class="hamburger">
+			<div class="hamburger-box">
+				<div class="hamburger-inner">
+				</div>
+			</div>
+		</div>
+		<ul class="menu">
+			{% assign navigation_pages = site.html_pages | where:"lang", page.lang | sort: 'navigation_weight' %}
+			{% for post in navigation_pages %}
+				{% if post.navigation_weight %}
+					<li>
+						<a href="{{ post.url }}" {% if post.url == page.url %}class="active"{% endif %}>
+							{{ post.title }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+    <ul class="menu show-for-medium">
         {% assign navigation_pages = site.html_pages | where:"lang", page.lang | sort: 'navigation_weight' %}
 		{% for post in navigation_pages %}
 			{% if post.navigation_weight %}

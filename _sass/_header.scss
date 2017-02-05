@@ -3,7 +3,9 @@ header.top-bar {
     width: 100%;
     z-index: 1;
 	background-color: #FFF;
-	background-color: rgba(255, 255, 255, 0.95);
+	@media screen and (min-width: 40em) {
+	    background-color: rgba(255, 255, 255, 0.95);
+	}
 	border-bottom: 3px solid $iris;
 	ul {
 		background-color: transparent;
@@ -18,13 +20,81 @@ header.top-bar {
 	}
 	.menu {
 		display: inline-block;
+		li > a {
+		    padding: 0.2rem 0.6rem;
+			@media screen and (min-width: 40em) {
+			    padding: 0.7rem 1rem;
+			}
+		}
 		&.lang {
 			float: right;
-/*
-			.en:lang(en), .de:lang(de) {
-			    color: $iris;
+		}
+	}
+	.mobile-nav {
+	    display: inline-block;
+		.hamburger {
+			display: inline-block;
+			cursor: pointer;
+			transition-property: opacity, filter;
+			transition-duration: 0.15s;
+			transition-timing-function: linear;
+			font: inherit;
+			color: inherit;
+			text-transform: none;
+			background-color: transparent;
+			border: 0;
+			margin: 0;
+			overflow: visible; 
+			.hamburger-box {
+				width: 30px;
+				height: 10px;
+				display: inline-block;
+				position: relative; 
+			}			
+			.hamburger-inner {
+				display: block;
+				top: 50%;
+				margin-top: -2px; 
 			}
-*/
+			.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+				width: 30px;
+				height: 4px;
+				background-color: #000;
+				border-radius: 4px;
+				position: absolute;
+				transition-property: transform;
+				transition-duration: 0.15s;
+				transition-timing-function: ease; 
+			}
+			.hamburger-inner::before, .hamburger-inner::after {
+				content: "";
+				display: block; 
+			}
+			.hamburger-inner::before {
+				top: -8px; 
+			}
+			.hamburger-inner::after {
+				bottom: -8px; 
+			}
+		}
+		.menu {
+		    position: absolute;
+		    width: 100%;
+		    left: 0%;
+			transform: translateX(-100%);
+		    padding: 0.7em;
+		    background-color: #FFF;
+			border-bottom: 3px solid $iris;
+			transition: transform 0.25s;
+		    &.in {
+				transform: translateX(0%);
+		    }
+		    & > li {
+			    display: block;
+			    & > a {
+				    padding: 0.7rem 1rem;
+			    }
+		    }
 		}
 	}
 }
