@@ -7,27 +7,50 @@
 	background-image: url(/img/hero-swing.jpeg);
     background-size: cover;
     background-position: center;
+    box-shadow: inset 0 0 150px 1px #000;
     .banner {
         position: absolute;
-	    top: 50%;
-	    transform: translateY(-50%);
+		bottom: 0;
+		transform: translateY(-5%);
 	    width:100%;
 	    color: #FFF;
+	    text-shadow: 0 0 2px $iris;
+	    @media screen and (max-width: 25.5em) {
+		    bottom: 20%
+	    }
+	    @media screen and (max-width: 20em) {
+		    bottom: 10%;
+	    }
 	    h1 {
 			font-size: 4rem;
+			margin-bottom: 0;
+			line-height: 1.1;
+			@media screen and (max-width: 39.9375em) {
+				font-size: 3rem;
+			}
 			&.cursive {
 				font-family: 'League Script', cursive;
 			    font-weight: bold;
-			    @media screen and (min-width: 40em) {
+			    @media screen and (max-width: 39.9375em) {
+					font-size: 4rem;
+				}
+			}
+			@media screen and (min-width: 40em) {
 			    font-size: 5rem;
-				}
-				@media screen and (min-width: 64em) {
-					font-size: 6rem;
-				}
+			}
+			@media screen and (min-width: 64em) {
+				font-size: 6rem;
 			}
 		}
 		h2 {
-			
+			margin-bottom: 0;
+			line-height: 1.1;
+		}
+		.ampersand {
+			margin-bottom: 0.5em;
+		}
+		.subhead {
+			margin-top: 0.5em;
 		}
     }
 }
