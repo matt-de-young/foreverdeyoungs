@@ -11,7 +11,7 @@ navigation_weight: 2
 ### Zeremonie ###
 **Wo:** Seelenkapelle, Eggenthal
 
-**Wann:** 7. Juli 2018, 14:30
+**Wann:** 7. Juli 2018, 13:30
 
 ### Empfang ###
 **Wo:** Parkhotel Residence, Bad Wörrishofen

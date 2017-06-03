@@ -11,7 +11,7 @@ navigation_weight: 2
 ### Ceremony ###
 **Where:** Seelenkapelle, Eggenthal
 
-**When:** July, 7th 2018, 14:30
+**When:** July, 7th 2018, 13:30
 
 ### Reception ###
 **Where:** Parkhotel Residence, Bad Wörrishofen
