@@ -10,7 +10,7 @@ If you could please let us know how many and where you would like to attend by J
 
 If you are attending both events, check both boxes. We can't wait to celebrate with all of you.
 
-<form method="POST" action="http://formspree.io/RSVP@ForeverdeYoung.wedding">
+<form action="https://formspree.io/mreankyx" method="POST"> 
 	<div class="row">
 	    <div class="medium-12 columns">
 			<input type="text" name="name" placeholder="Your name" required>

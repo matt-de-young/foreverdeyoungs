@@ -10,7 +10,7 @@ Bitte lasst uns bis Januar 2018 wissen ob ihr in Baltimore und Deutschland, oder
 
 Wir freuen uns darauf mit euch unseren großen Tag zu feiern! 
 
-<form method="POST" action="http://formspree.io/RSVP@ForeverdeYoung.wedding">
+<form action="https://formspree.io/xbdanypx" method="POST">
 	<div class="row">
 	    <div class="medium-12 columns">
 			<input type="text" name="name" placeholder="Name" required>
