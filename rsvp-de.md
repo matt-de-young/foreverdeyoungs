@@ -41,6 +41,12 @@ Wir freuen uns darauf mit euch unseren großen Tag zu feiern!
 	</div>
 	
 	<div class="row">
+		<div class="medium-12 columns">
+			<label><input type="checkbox" name="none_bool" value="True"> Ich/wir können nicht nach Baltimore oder Deutschland kommen</label>
+		</div>
+	</div>
+	
+	<div class="row">
 	    <div class="medium-12 columns">
 			<textarea name="message" placeholder="Kommentare" rows="5"></textarea>
 		</div>

@@ -41,6 +41,12 @@ If you are attending both events, check both boxes. We can't wait to celebrate w
 	</div>
 	
 	<div class="row">
+		<div class="medium-12 columns">
+			<label><input type="checkbox" name="none_bool" value="True"> I/we can't attend etiher</label>
+		</div>
+	</div>
+	
+	<div class="row">
 	    <div class="medium-12 columns">
 			<textarea name="message" placeholder="Other comments" rows="5"></textarea>
 		</div>
