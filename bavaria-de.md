@@ -33,8 +33,6 @@ In der selben Gegend gibt es auch andere Hotel Optionen.
 
 ## Getting There: ##
 
-Bad Wörrishofen has a train station in walking distance to the hotels.
 Bad Wörrishofen hat auch einen Bahnhof von dem aus man zu den naheliegenden Hotels laufen kann. 
 
-More details to follow.
 Weitere Details folgen. 
